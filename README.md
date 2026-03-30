@@ -6,7 +6,7 @@ Inside this repository the slides, demos and additional materials can be found w
 Want to see the session materials for a specific event?
 All events are ordered into seperate folders.
 
-Got a question about a session or want to learn more about the topic we discussed? Feel free to reach out to me on LinkedIn (https://www.linkedin.com/in/enricovdlaar).
+Got a question about a session or want to learn more about the topic we discussed? Feel free to reach out to me on LinkedIn (https://www.linkedin.com/in/enricovdlaar) or through my website (https://www.enricovandelaar.com).
 
 Wondering where you can find the materials for the Crazy Data Science sessions?
 They can be found on their own [GitHub repository](https://github.com/crzydatascience)
