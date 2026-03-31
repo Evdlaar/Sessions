@@ -1,0 +1,47 @@
+Storage account data protection
+-------------------------------
+
+- IAM first to check inherited permissions etc
+- Networking, discuss Firewalls etc
+- Access keys: discuss that building apps when using the Access Key is a bad idea
+  Access keys give full access to the resource.
+  Instead use Shared Access Signatures for granular control
+- Encryption: by default all data is encrypted by a Microsoft-managed key
+  If you want you can supply your own Encryption key for added security
+- Encryption: You also have the "Infrastructure encryption" option.
+  This can only be encrypted during deployment and basically performs a second
+  Round of encryption on your data. This is useful for when one algorithm has been
+  Cracked. In this case your data is still secure because its encrypted with a second
+  Algorithm
+
+- you can also create encryption scopes that applies on specific blobs or containers
+  In that case we can enable infrastructure encryption after the deployment of the service
+
+- Create new container and show the Encryption scope option
+
+
+Azure SQL DB
+------------
+
+- Start with the SQL Server
+- Discuss Microsoft Entry ID authentication vs mixed authentication
+- Go to networking discuss firewall etc
+- Discuss Allow Azure services and resources to access this server
+
+- Discuss TDE
+  Unlike On-Prem TDE is enabled by default with only an option to provide the key
+  Though you can turn it off per-database
+
+- Through VM and SSMS (demo script)
+  - Dynamic Data Masking
+  - Row level security
+  - Ledger Tables
+
+- Navigate to the database in Azure
+  - Data discovery & classification
+  - Always Encrypted (see slide)
+
+
+
+
+
